@@ -1,0 +1,4200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &131541768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131541769}
+  - component: {fileID: 131541771}
+  - component: {fileID: 131541770}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &131541769
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131541768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -433, y: 463}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &131541770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131541768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e973c3f5c712c9542a7457113d4618e4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &131541771
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131541768}
+  m_CullTransparentMesh: 1
+--- !u!1 &153219979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153219980}
+  - component: {fileID: 153219982}
+  - component: {fileID: 153219981}
+  m_Layer: 5
+  m_Name: Reputation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &153219980
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153219979}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429349519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -433, y: 463}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &153219981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153219979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e973c3f5c712c9542a7457113d4618e4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &153219982
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153219979}
+  m_CullTransparentMesh: 1
+--- !u!1 &255576456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 255576457}
+  - component: {fileID: 255576459}
+  - component: {fileID: 255576458}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &255576457
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255576456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429349519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -370.9}
+  m_SizeDelta: {x: 1500, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &255576458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255576456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 58b647c5b2ec4184e9a07a561cdf0644, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: TET TEST
+--- !u!222 &255576459
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255576456}
+  m_CullTransparentMesh: 1
+--- !u!1 &304600429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304600430}
+  - component: {fileID: 304600433}
+  - component: {fileID: 304600432}
+  - component: {fileID: 304600431}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &304600430
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304600429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429349519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &304600431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304600429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 304600432}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1429349520}
+        m_TargetAssemblyTypeName: OnBoardingManager, Assembly-CSharp
+        m_MethodName: HandleClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &304600432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304600429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &304600433
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304600429}
+  m_CullTransparentMesh: 1
+--- !u!1 &322894518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 322894519}
+  - component: {fileID: 322894521}
+  - component: {fileID: 322894520}
+  m_Layer: 5
+  m_Name: Day
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &322894519
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322894518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 252, y: 463}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &322894520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322894518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &322894521
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322894518}
+  m_CullTransparentMesh: 1
+--- !u!1 &323899632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323899633}
+  - component: {fileID: 323899635}
+  - component: {fileID: 323899634}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &323899633
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323899632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429349519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &323899634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323899632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.90588236}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &323899635
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323899632}
+  m_CullTransparentMesh: 1
+--- !u!1 &337963425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337963426}
+  m_Layer: 5
+  m_Name: RoundResult
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &337963426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337963425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 420639858}
+  - {fileID: 1913992328}
+  - {fileID: 934658221}
+  - {fileID: 1003186597}
+  - {fileID: 1579179841}
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &420639857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420639858}
+  - component: {fileID: 420639860}
+  - component: {fileID: 420639859}
+  m_Layer: 5
+  m_Name: BackGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &420639858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420639857}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 337963426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1284, y: 817}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &420639859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420639857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 14c142db9d395bb46a586709b84bcea8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &420639860
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420639857}
+  m_CullTransparentMesh: 1
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &528560776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 528560779}
+  - component: {fileID: 528560778}
+  - component: {fileID: 528560777}
+  m_Layer: 5
+  m_Name: Gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &528560777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528560776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &528560778
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528560776}
+  m_CullTransparentMesh: 1
+--- !u!224 &528560779
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528560776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 694, y: 463}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &673271553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 673271554}
+  - component: {fileID: 673271556}
+  - component: {fileID: 673271555}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &673271554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673271553}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 934658221}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &673271555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673271553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 58b647c5b2ec4184e9a07a561cdf0644, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Next Day....
+--- !u!222 &673271556
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673271553}
+  m_CullTransparentMesh: 1
+--- !u!1 &683789074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 683789075}
+  - component: {fileID: 683789077}
+  - component: {fileID: 683789076}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &683789075
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683789074}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -59, y: 463}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &683789076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683789074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8677e6db5323cbb45be8e0629a33f45f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &683789077
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683789074}
+  m_CullTransparentMesh: 1
+--- !u!1 &753240419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 753240423}
+  - component: {fileID: 753240422}
+  - component: {fileID: 753240421}
+  - component: {fileID: 753240420}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &753240420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753240419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &753240421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753240419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &753240422
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753240419}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 99
+  m_TargetDisplay: 0
+--- !u!224 &753240423
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753240419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1305815082}
+  - {fileID: 1429349519}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &901182160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 901182161}
+  - component: {fileID: 901182163}
+  - component: {fileID: 901182162}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &901182161
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901182160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &901182162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901182160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b424c570c1eb07448858467569fef21e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &901182163
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901182160}
+  m_CullTransparentMesh: 1
+--- !u!1 &934658220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934658221}
+  - component: {fileID: 934658224}
+  - component: {fileID: 934658223}
+  - component: {fileID: 934658222}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &934658221
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934658220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 673271554}
+  m_Father: {fileID: 337963426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 373.32, y: -360.76}
+  m_SizeDelta: {x: 250, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &934658222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934658220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 934658223}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1617308004}
+        m_TargetAssemblyTypeName: RoundResultUI, Assembly-CSharp
+        m_MethodName: HandleConfirm
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &934658223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934658220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &934658224
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934658220}
+  m_CullTransparentMesh: 1
+--- !u!1 &997233713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997233716}
+  - component: {fileID: 997233715}
+  - component: {fileID: 997233714}
+  m_Layer: 5
+  m_Name: Pop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &997233714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997233713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &997233715
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997233713}
+  m_CullTransparentMesh: 1
+--- !u!224 &997233716
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997233713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -120, y: 463}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1003186596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1003186597}
+  - component: {fileID: 1003186599}
+  - component: {fileID: 1003186598}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1003186597
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003186596}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 337963426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -186.45, y: 150}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1003186598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003186596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 543aa9c816112fb4b9ba0d4a391ba396, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1003186599
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003186596}
+  m_CullTransparentMesh: 1
+--- !u!1 &1067688564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067688565}
+  - component: {fileID: 1067688567}
+  - component: {fileID: 1067688566}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1067688565
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067688564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1305815082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1250, y: 600}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1067688566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067688564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "You\u2019re made for this! Everyone praises you like this, and you truly
+    believe it too. Who else could know better than you how to deliver great news?
+    You glance at the invitation on your desk\u2014a formal dinner invite reserved
+    only for the heads of top newspapers. Tonight, you\u2019ll be attending. On your
+    screen, a new payment has just been processed, and earlier, your colleague reported
+    that today\u2019s newspaper sales have increased yet again. Everything is moving
+    in the best direction, and you feel that your future is shining brighter than
+    ever."
+--- !u!222 &1067688567
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067688564}
+  m_CullTransparentMesh: 1
+--- !u!1 &1128810176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1128810177}
+  - component: {fileID: 1128810180}
+  - component: {fileID: 1128810179}
+  - component: {fileID: 1128810178}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1128810177
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128810176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1305815082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1128810178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128810176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1128810179}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1900255462}
+        m_TargetAssemblyTypeName: EndingManager, Assembly-CSharp
+        m_MethodName: HandleClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1128810179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128810176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1128810180
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128810176}
+  m_CullTransparentMesh: 1
+--- !u!1 &1148778141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1148778142}
+  - component: {fileID: 1148778144}
+  - component: {fileID: 1148778143}
+  m_Layer: 5
+  m_Name: Day
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1148778142
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148778141}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429349519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -59, y: 463}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1148778143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148778141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8677e6db5323cbb45be8e0629a33f45f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1148778144
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148778141}
+  m_CullTransparentMesh: 1
+--- !u!1 &1219063942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219063944}
+  - component: {fileID: 1219063943}
+  m_Layer: 0
+  m_Name: NewsTuningTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1219063943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219063942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4889a7bd6c86246a1741f7ce5c8a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewsTuningTable:
+  - NewsDetail: A local restaurant is suspected of using expired ingredients.
+    NewsLevel: 1
+    NewsCost: 0
+    Titles:
+    - TitleText: Restaurant on Bartlett Street Suspected of Using Expired Ingredients
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - TitleText: Have You Eaten at This Restaurant? You Might Have Food Poisoning!
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - TitleText: Warning! The Food at This Restaurant is Toxic!
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Descriptions:
+    - DescriptionText: "Testing has found that a restaurant was using expired beef.
+        Although it hasn\u2019t been expired for long, consuming it may lead to symptoms
+        like nausea and vomiting. While these symptoms aren\u2019t life-threatening,
+        if you ordered beef dishes at this restaurant, we recommend seeking medical
+        advice promptly."
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: "Testing has found that a restaurant was using expired beef!
+        Authorities suspect it has been expired for a long time, and consuming it
+        could cause symptoms of food poisoning, such as nausea and vomiting, with
+        serious impacts on your health. If you\u2019ve dined at this restaurant,
+        please seek medical advice immediately.  "
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - DescriptionText: "Testing has found that a restaurant was using expired beef!
+        Not only that, but other ingredients used by the restaurant, such as vegetables
+        and seasonings, have also been found to be expired or even spoiled! Authorities
+        suspect these ingredients have been expired for a long time, and if you\u2019ve
+        eaten at this restaurant, your health may already have suffered irreversible
+        damage. If you\u2019ve dined here, please seek medical advice right away,
+        and if necessary, prepare for possible hospital observation."
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: de88fa259c7c4594cbc850de1d42aee3, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 20533baa556bf0c43bd6bd32f7a62da5, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 9862cb0fbe2ef8b4b90fe0e94d3786af, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+  - NewsDetail: A flu outbreak among young children in the city has led to school
+      absences among elementary students.
+    NewsLevel: 2
+    NewsCost: 0
+    Titles:
+    - TitleText: 'Flu Outbreak at Local Elementary School: Multiple Students Infected,
+        School Takes Emergency Measures'
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: Is Your Child Safe? Flu Outbreak at Local School, Many Students
+        Absent with Fever!
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: Warning! Flu Outbreak at This School, Unknown Virus May Have Spread!
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: "A flu outbreak at a local elementary school has led to several
+        students experiencing high fever and fatigue. The school has initiated an
+        emergency disinfection procedure. Given the flu virus\u2019s high transmissibility,
+        parents are advised to closely monitor their children's health."
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: A local elementary school has reported several students absent
+        due to flu infection. The school has implemented isolation measures and arranged
+        for thorough disinfection. Relevant authorities have stated that symptoms
+        are mainly mild, including slight fever and cough, and pose no significant
+        health risk.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: Reports indicate a large-scale flu outbreak at a local elementary
+        school, causing multiple classes to be suspended! Some students have severe
+        symptoms requiring hospitalization. The school admitted that it was unable
+        to detect the outbreak in time, and there are concerns the virus may have
+        spread to nearby areas. Parents are urged to stay vigilant; if their child
+        shows related symptoms, they should seek medical attention immediately and
+        practice isolation measures to prevent further spread.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 68547af473c442944a2f278889e7dd09, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 7e5a35c7c758cb645b313894261a4f50, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: e518be98374f15e49bedc30112f7b4b6, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+  - NewsDetail: A local pharmacy has been found selling expired medications.
+    NewsLevel: 0
+    NewsCost: 0
+    Titles:
+    - TitleText: "Alert! This Pharmacy\u2019s Medications Pose a Health Hazard!"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    - TitleText: "Warning: The Medicine You\u2019re Taking Might Already Be Expired!"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: ' Pharmacy in Rockview Rd Suspected of Selling Expired Medications,
+        Public Health at Risk'
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    Descriptions:
+    - DescriptionText: A local pharmacy was found to be selling some expired medications,
+        including common cold and anti-inflammatory drugs. Although these medications
+        are only a few months past their expiration date, experts warn that the effectiveness
+        may be reduced or could lead to adverse reactions.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: 'A pharmacy is suspected of selling medications that are significantly
+        past their expiration date. Experts suggest that these medications may burden
+        the liver and kidneys or cause allergic reactions. If you have purchased
+        medications from this pharmacy, stop using them immediately and contact your
+        doctor to ensure no health effects have occurred.  '
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: A large batch of expired medications was discovered at a local
+        pharmacy, prompting warnings from relevant authorities. Using expired medications
+        could worsen medical conditions or even cause acute allergic reactions and
+        organ damage. If you have recently bought medications from this pharmacy,
+        stop using them at once and prepare to consult a medical institution for
+        necessary health checks.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 1cc5c77a2cc391045ba881bb50358e7f, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 412f3ad2dba27d64086c951c42a26ed7, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 1c96e8a3535845c479c660c3626bc5e2, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+  - NewsDetail: A local bus driver is suspected of driving under the influence, causing
+      a traffic accident and alarming citizens.
+    NewsLevel: 2
+    NewsCost: 0
+    Titles:
+    - TitleText: "Bus Driver\u2019s Accident Raises Public Concerns"
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: "Bus Driver Suspected of Drunk Driving \u2013 Lives Nearly Lost!"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: "Public Transport No Longer Safe! Driver\u2019s Drunk Driving Causes
+        Major Incident!"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: A bus driver reportedly caused a traffic accident due to suspected
+        drunk driving. Fortunately, no injuries were reported, but the incident has
+        drawn widespread public attention. The traffic management department has
+        launched an investigation to verify if the driver was involved in unsafe
+        behavior such as driving under the influence.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: A bus accident occurred yesterday in the city, leaving passengers
+        on board in terror at the time of the incident. Some passengers reported
+        smelling alcohol in the bus, although it is not yet confirmed whether this
+        is related to potential drunk driving by the driver. The incident is still
+        under investigation.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - DescriptionText: A city bus was involved in a traffic accident yesterday. Following
+        an investigation, it was discovered that bus driver [name] had consumed a
+        large amount of alcohol before driving, leading to the accident. The police
+        are currently investigating this incident.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 07918aadf20e84741bf7e7b272ad46ef, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - PictureSprite: {fileID: 21300000, guid: 168998befdaa1ec43800582c0b45167c, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 72440d2f1e350684c9beac94ab3c6531, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+  - NewsDetail: Suspected issues in the new council member election vote have led
+      to a re-investigation of the results.
+    NewsLevel: 3
+    NewsCost: 0
+    Titles:
+    - TitleText: Council Election System Issues Reported, Authorities Recounting
+        Results
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - TitleText: Was Your Vote Fair? Election Results Under Re-evaluation!
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - TitleText: Election Gains Through System Flaws; Final Results Still Unclear
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Descriptions:
+    - DescriptionText: Recently, authorities discovered a flaw in the system used
+        to tally the new council election votes, potentially causing inaccuracies
+        in the results. The initial tally has been discarded, and the results will
+        be recounted once the system is fixed.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - DescriptionText: A system error was identified in the vote-counting system
+        for the new council election, causing some election results to be affected.
+        Fortunately, authorities caught the issue in time, and these erroneous results
+        have been withdrawn, preventing further complications.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - DescriptionText: It was reported that an error in the recent council election
+        vote results has compromised the fairness of some outcomes, though it has
+        not had a significant impact so far. Some experts suspect that foreign influences
+        might be connected to this mishap.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: f5bcdce17dddf6c4388972de4a9ce494, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: ad14c74b541e934458a269fdc2526ae7, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 699c6a563dff7e74a8dcda59b1dd4ba4, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+  - NewsDetail: Tram routes in the city will undergo partial maintenance tomorrow,
+      causing minor delays for all trains.
+    NewsLevel: 0
+    NewsCost: 0
+    Titles:
+    - TitleText: Routine Tram Line Maintenance, Some Services to Be Delayed
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: Routine Tram Line Maintenance, Services Will Be Affected
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - TitleText: Routine Tram Line Maintenance, Full Extent of Delays Unknown
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+    Descriptions:
+    - DescriptionText: Starting tomorrow, tram lines in the city will undergo routine
+        maintenance, causing minor delays for all trains. Residents are advised to
+        adjust their travel plans to avoid unnecessary disruptions.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - DescriptionText: Tram lines in the city will undergo maintenance tomorrow,
+        which is expected to significantly impact tram operations. Although unlikely,
+        some services may even be canceled. Residents should prepare in advance.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - DescriptionText: 'Due to issues with tram lines in the city, maintenance will
+        take place tomorrow, though the extent of the impact is unclear. Experts
+        predict widespread delays, with some services possibly being canceled. Residents
+        are advised to plan their travel accordingly.  '
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: a45f0711b82658f4da23b2a4bc90a8a0, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 270da3acffd4c2a41bea3f16cb74abe6, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 4e595bc9560f70242b954a6a97206378, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+  - NewsDetail: Two people engaged in a brawl at a downtown pub; police have handled
+      the situation promptly.
+    NewsLevel: 0
+    NewsCost: 0
+    Titles:
+    - TitleText: Brawl at Downtown Pub, Police Detain Both Involved
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: Brawl at Downtown Pub, Multiple People Affected
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - TitleText: Breaking! Brawl at Downtown Pub Raises Concerns About Public Safety
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+    Descriptions:
+    - DescriptionText: Around 7 p.m. yesterday, two individuals at a downtown pub
+        got into a personal dispute that escalated into a physical altercation. Fortunately,
+        police arrived promptly and managed to control the situation, preventing
+        any serious impact.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - DescriptionText: Around 7 p.m. yesterday, a brawl occurred at a downtown pub,
+        and police arrived to take control of the scene. The incident affected other
+        patrons in the pub, and witnesses reported possible injuries.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - DescriptionText: Around 7 p.m. yesterday, a violent brawl broke out at a downtown
+        pub, impacting multiple people before police arrived to contain the situation.
+        This response time raises concerns about whether we can still feel safe in
+        public spaces.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 30fc1e21ff2ad1048821cbdea94eccb8, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 724e999c33e26a34498645a596bae31e, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: fcbe3cf1dba88a94a9b611cf1d1129bb, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+  - NewsDetail: Two fires occurred in the same day at an apartment building in the
+      eastern part of the city, with firefighters controlling the scene.
+    NewsLevel: 1
+    NewsCost: 0
+    Titles:
+    - TitleText: Fire at Eastside Apartment Highlights Need for Fire Safety Awareness
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - TitleText: "Consecutive Fires at Eastside Apartment \u2013 Is Building Safety
+        Reliable?"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: "Caution! Consecutive Fires at Eastside Apartment \u2013 Is Staying
+        Here Still an Option?"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: An apartment building in the eastern part of the city experienced
+        two fires on the same day. Firefighters responded promptly and quickly resolved
+        the situation. Building inspections are ongoing to identify any potential
+        hazards. Citizens are advised to take this as a reminder to prioritize fire
+        safety.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: "An apartment building in the eastern part of the city had
+        two fires today. The city\u2019s fire department responded promptly and controlled
+        the fire. While this incident serves as a reminder to practice fire safety,
+        it also raises questions about the structural integrity of the building itself."
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: An apartment building in the eastern part of the city had
+        two fires today, with the fire department promptly controlling the situation.
+        This fire incident not only highlights issues with fire safety but also suggests
+        serious structural concerns with the apartment building. Residents may want
+        to consider relocating to a safer place.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 81750eff291bc0c488105a8886c4ebd6, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 7d99b1a9a17f72a4ba24417a3f0fbcbb, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 0c5f5149bf4a7784a98c624989a47acb, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+  - NewsDetail: A celebrity is facing a tax evasion crisis, under investigation by
+      the tax authorities. While the verdict is pending, a criminal penalty is likely.
+    NewsLevel: 1
+    NewsCost: 0
+    Titles:
+    - TitleText: Famous Celebrity Suspected of Tax Evasion, Tax Authorities Ramp
+        Up Investigation
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: "Renowned Celebrity Under Tax Investigation \u2013 Could the Outcome
+        Be Heartbreaking?"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - TitleText: "Famous Celebrity Owes Massive Taxes \u2013 Imprisonment Likely"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: A famous celebrity was recently found to have long-standing
+        unpaid taxes and has been ordered to suspend all activities while an investigation
+        is underway. Tax authorities have stated that although the trial will take
+        time, they are committed to ensuring the suspect receives appropriate punishment.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - DescriptionText: A well-known celebrity was recently found to have significant
+        unpaid taxes, and the tax authorities have filed an official investigation.
+        Sources indicate that the punishment faced by this celebrity is expected
+        to be severe.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: "A well-known celebrity has recently come under investigation
+        by the tax authorities due to massive unpaid taxes. It is widely believed
+        that the outcome is inevitable \u2013 they will face serious criminal penalties."
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: f0f8d0440b620c34c90c2bec48610dbf, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 45e91c5b1570a164f9b947fa6dfa61ee, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: e24b27b9075bec9449e6231939c35b69, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+  - NewsDetail: "A local chemical plant\u2019s wastewater discharge has exceeded
+      standards, impacting river water quality. Relevant authorities have imposed
+      penalties."
+    NewsLevel: 3
+    NewsCost: 0
+    Titles:
+    - TitleText: "Chemical Plant\u2019s Excessive Wastewater Discharge Pollutes River"
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - TitleText: "Chemical Plant\u2019s Excessive Wastewater Discharge Releases Radioactive
+        Substances into River!"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: "Illegal Wastewater Discharge by Chemical Plant Puts Residents\u2019
+        Water Supply at Risk!"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Descriptions:
+    - DescriptionText: "Recently, an inspection by the environmental department found
+        that a local chemical plant\u2019s wastewater discharge exceeded the allowed
+        standards, severely affecting river water quality. The plant has been ordered
+        to cease operations for rectification and is facing penalties."
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - DescriptionText: Recently, an inspection by the environmental department found
+        that a local chemical plant was discharging excessive wastewater containing
+        a certain level of radioactive substances, which poses a serious pollution
+        threat to the river. Citizens are advised to be cautious about their safety.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: "Recently, an inspection by the environmental department found
+        that a local chemical plant\u2019s wastewater discharge exceeded standards
+        and contained a certain level of radioactive substances. As these rivers
+        may potentially be treated and reused as household water, can our daily safety
+        truly be guaranteed?"
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 06e3a15978b65a44cb39baa6f606bb2f, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 5f88dc28b531a7d4f8cd97e09e089e28, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 2abba5116927ba04baee32b372bd5811, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+  - NewsDetail: A downtown bank experienced an armed robbery, with police arriving
+      promptly to handle the situation.
+    NewsLevel: 3
+    NewsCost: 60
+    Titles:
+    - TitleText: Downtown Bank Robbed, Police Quickly Respond and Resolve Incident
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - TitleText: Armed Robbers Hold Up Bank, Chaos Ensues at the Scene
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - TitleText: "Ruthless Bandits Ransack Bank, Citizens\u2019 Wealth No Longer
+        Safe"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: Yesterday, a downtown bank was robbed, but police quickly
+        controlled the situation soon after the incident began. Police reported that
+        the robbers were armed with dangerous weapons but did not harm anyone on
+        the scene. There was no financial loss or injuries, and the case remains
+        under investigation.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - DescriptionText: A downtown bank was robbed yesterday by a group of armed robbers
+        who entered the bank and threatened customers. The situation was intense,
+        and police arrived 20 minutes later to take control, though people remain
+        shaken by the incident.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - DescriptionText: A downtown bank was robbed yesterday by a group armed with
+        firearms, who threatened the lives of people present. Witnesses reported
+        hearing loud noises, suspected by this report to have been gunfire. While
+        the situation was successfully resolved by police intervention, this incident
+        raises important concerns.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 694ea92aebb9d36479d865a201dc18bc, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: fa456220788d6504dbab0947e9f61dbc, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: faaf8e6dab83f234e925433e62bb2ffd, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+  - NewsDetail: The city is set to launch a new network infrastructure project, promising
+      a significant improvement in residents' communication experience.
+    NewsLevel: 1
+    NewsCost: 0
+    Titles:
+    - TitleText: Network Infrastructure Overhaul Begins, Residents' Communications
+        to Improve
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - TitleText: "Network Upgrades Underway \u2013 Will Residents\u2019 Communications
+        Be Affected?"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: "Network Overhaul Announced \u2013 Upgrade or Hidden Agenda?"
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: "Starting tomorrow, the city will begin a new network upgrade
+        project. It\u2019s reported that once completed, residents\u2019 communication
+        quality will improve significantly, which will greatly enhance the quality
+        of life for city residents."
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: Beginning tomorrow, the city will undertake a large-scale
+        network update aimed at significantly improving residents' communication
+        quality. Although officials claim that the upgrade will not have any negative
+        impacts, some residents worry whether their communication quality might be
+        affected during such a massive upgrade.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: "Starting tomorrow, the city will begin a comprehensive network
+        update. The government claims that this upgrade is intended to enhance residents'
+        communication quality. However, the large scale and lengthy duration of this
+        project raise questions about whether this might be an opportunity for the
+        government to install monitoring systems in residents\u2019 communications."
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: d9d5a0343100b2b4e81809112436456c, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 6decdc096fe766948b6d5a73abd9b25a, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 924cf5450a6121142a4c761636dd951c, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+  - NewsDetail: Forty-three monkeys escaped from a laboratory in South Carolina,
+      raising public concerns about lab safety.
+    NewsLevel: 3
+    NewsCost: 60
+    Titles:
+    - TitleText: Lab Safety Failure? The Escape of 43 Monkeys Raises Concerns
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - TitleText: "The \"Experimenters\" on the Run: 43 Monkeys Successfully \u201CBreak
+        Out,\u201D Residents Advised to Stay Alert!"
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: Great Escape! Dozens of Lab Monkeys "Break Free," Bringing Health
+        Risks?
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: A group of monkeys involved in research accidentally escaped
+        from a suburban lab. Police say the incident poses no serious threat but
+        have increased search efforts. Residents are advised to stay aware of their
+        surroundings and report any unusual activity.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: 'A suburban lab reported a large-scale monkey escape, with
+        43 monkeys used for biological research fleeing into nature, potentially
+        impacting the ecosystem. Police urge people to be cautious during outdoor
+        activities and not to approach these monkeys.  '
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - DescriptionText: Forty-three lab monkeys escaped from a suburban lab, potentially
+        carrying pathogens due to the unknown nature of the experiments. Experts
+        warn residents, especially those with weaker immune systems, to avoid contact.
+        This incident has sparked strong public dissatisfaction with the management
+        of laboratory animals.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 0a3674faf7ebb9744ad98b95a02bef41, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: c7ba272bd53b5df44820e7ef212ff056, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 5f9cb09965eb45f47afb8974cefeac9c, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+  - NewsDetail: The tech department employees of the Sun Times went on strike on
+      the eve of the presidential election, potentially affecting election coverage.
+    NewsLevel: 2
+    NewsCost: 40
+    Titles:
+    - TitleText: Sun Times Tech Team Strikes on Election Eve, Reporting May Be Affected
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - TitleText: Rely on Sun Times for Election News? Tech Team Strike Could Impact
+        Coverage
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - TitleText: Warning! Sun Times Tech Department Strike Poses Risk to Election
+        Coverage
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Descriptions:
+    - DescriptionText: Sun Times tech department employees have begun a strike on
+        the eve of the election, demanding higher pay and remote work flexibility.
+        While the company states it has an emergency plan in place, news coverage
+        may be impacted.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - DescriptionText: The Sun Times tech team has gone on strike just before the
+        election, seeking higher pay and flexibility for remote work. The strike
+        may affect election coverage, so readers should watch for potential delays
+        or accuracy issues.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - DescriptionText: Sun Times tech department staff are on strike on the eve of
+        the election, demanding better pay and remote work flexibility. The strike
+        may disrupt election coverage, and readers should be cautious about changes
+        in information sources.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 98c30dae32adf90449104b6b1e441d6e, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 216a081e0a9f109429c68d40f295b9e2, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - PictureSprite: {fileID: 21300000, guid: 62d387666c0d98b49a56756526f73b69, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+  - NewsDetail: A school shooting occurred in the city, with a 14-year-old student
+      and his father facing multiple murder charges.
+    NewsLevel: 3
+    NewsCost: 60
+    Titles:
+    - TitleText: 'City School Shooting: 14-Year-Old Student and Father Charged with
+        Multiple Counts of Murder'
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - TitleText: Shocking! Fatal Shooting at Local High School, Father and Son Both
+        Charged with Murder
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - TitleText: Nationwide Outrage! High School Tragedy, Teenage Shooter and Father
+        Face Major Charges as School Safety Concerns Resurface
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: A high school in the city witnessed a tragic shooting incident
+        where a 14-year-old shooter allegedly used a semi-automatic rifle on campus,
+        resulting in four deaths and 11 injuries. He and his father have been charged
+        with murder due to conspiracy and negligence, shocking the nation.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - DescriptionText: A fatal shooting incident at a city high school left four
+        dead and 11 injured, with a 14-year-old shooter allegedly using a semi-automatic
+        rifle on campus. Both the shooter and his father face murder charges, sparking
+        nationwide shock.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - DescriptionText: 'A horrific shooting broke out at a city high school, where
+        a 14-year-old shooter allegedly opened fire with a rifle, causing multiple
+        deaths and injuries, leaving many families devastated. This tragedy has ignited
+        national outrage, with Colt and his father, Colin, both facing major charges.      '
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 3a0429d014b3c274fa6d27750b249788, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 2
+    - PictureSprite: {fileID: 21300000, guid: fe12eeb88e7968240b12851d78888f53, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 2
+    - PictureSprite: {fileID: 21300000, guid: 051786d74b21f9c488cfb0af31f1b376, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 2
+  - NewsDetail: Beloved wild mustang "Blaze" was shot in a city suburb, prompting
+      a $2,500 reward and public outcry for justice.
+    NewsLevel: 0
+    NewsCost: 0
+    Titles:
+    - TitleText: Symbolic Wild Mustang "Blaze" Brutally Shot in City Suburb, Non-Profit
+        Offers $2,500 Reward for Killer
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: Silent Protest? City Suburb's Wild Stallion "Blaze" Mysteriously
+        Killed, Sparking Strong Reaction from Conservation Groups
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: The Symbol of Freedom Has Fallen! Notable Wild Mustang Shot in City
+        Suburb, Non-Profit Offers Large Reward to Bring Killer to Justice
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: The widely admired wild mustang "Blaze" was found shot in
+        the city suburb, sparking outrage. A wild horse protection organization is
+        offering a $2,500 reward to find the perpetrator.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: The iconic wild stallion "Blaze" was mysteriously killed in
+        the city suburb, prompting reflection on wildlife conservation. A wild horse
+        protection organization quickly responded with a $2,500 reward to apprehend
+        the killer and plans to pursue legal action against those responsible.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - DescriptionText: The symbol of freedom, the wild mustang "Blaze," was brutally
+        killed, igniting anger among conservation groups. A wild horse protection
+        organization is offering a $2,500 reward for leads and is committed to seeking
+        justice for "Blaze." Authorities have announced a full investigation and
+        warned that the perpetrators will face severe legal consequences.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: f48037b7960b46b45ae902d0c19f4138, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 00a244f89e1c81b4bbfbdd38a8e48e02, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: fb809f8826b8e7943b2f68af12bf47ae, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+  - NewsDetail: The driver crashed into a downtown convenience store, but no injuries
+      were reported.
+    NewsLevel: 0
+    NewsCost: 0
+    Titles:
+    - TitleText: Driver Mistakenly Hits Gas Pedal, SUV Crashes into Convenience Store,
+        Thankfully No Injuries
+      TitleRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - TitleText: Close Call! Out-of-Control SUV Crashes into Convenience Store, Shattered
+        Glass and Overturned Shelves
+      TitleRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 1
+    - TitleText: '"Runaway" SUV Speeds into Convenience Store! Scene Resembles a
+        Disaster Movie, Shoppers Left Shaken'
+      TitleRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 1
+    Descriptions:
+    - DescriptionText: An SUV crashed into a convenience store on Central Avenue
+        when the driver accidentally hit the gas while parking. No injuries were
+        reported, and police urge drivers to be cautious while parking.
+      DescriptionRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 1
+    - DescriptionText: A dramatic incident occurred downtown as an SUV lost control
+        and crashed into a convenience store, shattering glass and toppling shelves.
+        Despite the chaotic scene, no injuries were reported. Police are investigating
+        and remind the public to drive carefully.
+      DescriptionRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - DescriptionText: A shocking scene unfolded in the city as an SUV smashed through
+        the doors of a convenience store, resembling a disaster movie with shoppers
+        screaming and glass flying everywhere. Police quickly secured the area, advising
+        citizens to drive safely to prevent similar incidents.
+      DescriptionRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+    Pictures:
+    - PictureSprite: {fileID: 21300000, guid: 52fbc9c1d5b159c4e9390ef7835fec61, type: 3}
+      PictureRating:
+        PanicLevel: 0
+        ExaggerateLevel: 0
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: cad631f3d63426842ba6ad9a90002ef3, type: 3}
+      PictureRating:
+        PanicLevel: 1
+        ExaggerateLevel: 1
+        AttractiveLevel: 0
+    - PictureSprite: {fileID: 21300000, guid: 39ccf26d9fbfb1b4bbad94cb010890d5, type: 3}
+      PictureRating:
+        PanicLevel: 2
+        ExaggerateLevel: 2
+        AttractiveLevel: 0
+  PossibilityTuning:
+    Possibility:
+    - 1
+    - 0.75
+    - 0.35
+    - 0.175
+  NewsRewardsTuning:
+    BaseRatingTuning:
+    - Gold: 0
+      Popularity: 0
+    - Gold: 5
+      Popularity: 3
+    - Gold: 10
+      Popularity: 5
+    - Gold: 20
+      Popularity: 8
+    CategoryRatingTuning:
+    - RatingCat: 0
+      RewardsValue:
+      - Gold: 5
+        Popularity: 3
+      - Gold: 10
+        Popularity: -2
+      - Gold: 30
+        Popularity: -5
+    - RatingCat: 1
+      RewardsValue:
+      - Gold: 5
+        Popularity: 3
+      - Gold: 10
+        Popularity: -2
+      - Gold: 20
+        Popularity: -5
+    - RatingCat: 2
+      RewardsValue:
+      - Gold: 5
+        Popularity: 0
+      - Gold: 5
+        Popularity: 1
+      - Gold: 20
+        Popularity: 3
+--- !u!4 &1219063944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219063942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1534.0808, y: 759.3125, z: -6.9831204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1305815081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305815082}
+  - component: {fileID: 1305815084}
+  - component: {fileID: 1305815083}
+  m_Layer: 5
+  m_Name: GameEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1305815082
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305815081}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1067688565}
+  - {fileID: 1128810177}
+  m_Father: {fileID: 753240423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1305815083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305815081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1305815084
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305815081}
+  m_CullTransparentMesh: 1
+--- !u!1 &1409942579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409942580}
+  - component: {fileID: 1409942582}
+  - component: {fileID: 1409942581}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1409942580
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409942579}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617308002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 370, y: 463}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1409942581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409942579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 543aa9c816112fb4b9ba0d4a391ba396, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1409942582
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409942579}
+  m_CullTransparentMesh: 1
+--- !u!1 &1423884130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423884131}
+  - component: {fileID: 1423884133}
+  - component: {fileID: 1423884132}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1423884131
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423884130}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1923259796}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1423884132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423884130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: TEST GENERATE
+--- !u!222 &1423884133
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423884130}
+  m_CullTransparentMesh: 1
+--- !u!1 &1429349518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1429349519}
+  - component: {fileID: 1429349520}
+  m_Layer: 5
+  m_Name: OnBoarding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1429349519
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429349518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 323899633}
+  - {fileID: 255576457}
+  - {fileID: 2054433567}
+  - {fileID: 1148778142}
+  - {fileID: 153219980}
+  - {fileID: 304600430}
+  m_Father: {fileID: 753240423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1429349520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429349518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541c2a8af54ec0943a7a3bf138d2b471, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentStage: 0
+  TextNode: {fileID: 255576458}
+  Gold: {fileID: 2054433566}
+  Day: {fileID: 1148778141}
+  Popularity: {fileID: 153219979}
+--- !u!1 &1579179840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1579179841}
+  - component: {fileID: 1579179843}
+  - component: {fileID: 1579179842}
+  m_Layer: 5
+  m_Name: Image (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1579179841
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579179840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 337963426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -186.45, y: -35}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1579179842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579179840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e973c3f5c712c9542a7457113d4618e4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1579179843
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579179840}
+  m_CullTransparentMesh: 1
+--- !u!1 &1617307998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1617308002}
+  - component: {fileID: 1617308001}
+  - component: {fileID: 1617308000}
+  - component: {fileID: 1617307999}
+  - component: {fileID: 1617308003}
+  - component: {fileID: 1617308004}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1617307999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617307998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1617308000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617307998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1617308001
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617307998}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1617308002
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617307998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 901182161}
+  - {fileID: 322894519}
+  - {fileID: 1409942580}
+  - {fileID: 683789075}
+  - {fileID: 131541769}
+  - {fileID: 528560779}
+  - {fileID: 997233716}
+  - {fileID: 337963426}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1617308003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617307998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a9a1ce40bc6f74d9a373c89246052a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Day: {fileID: 322894520}
+  Gold: {fileID: 528560777}
+  Popularity: {fileID: 997233714}
+--- !u!114 &1617308004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617307998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60964a9b4c4a3848b555002528704ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIObj: {fileID: 337963425}
+  TextNode: {fileID: 1913992329}
+--- !u!1 &1890564788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890564792}
+  - component: {fileID: 1890564791}
+  - component: {fileID: 1890564790}
+  - component: {fileID: 1890564789}
+  - component: {fileID: 1890564793}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1890564789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890564788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1890564790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890564788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1890564791
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890564788}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!224 &1890564792
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890564788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1923259796}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1890564793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890564788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d957427fca06a4d8f8adec038e1e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewsPrefab: {fileID: 8595386955604916073, guid: 68725dfd26e362249a0dd5e83955ef51, type: 3}
+  GeneratedUIs: []
+--- !u!1 &1900255459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900255461}
+  - component: {fileID: 1900255460}
+  - component: {fileID: 1900255462}
+  - component: {fileID: 1900255463}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1900255460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900255459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b6f33eebd59d54fb69f41b59531e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameLength: 5
+  AS: {fileID: 0}
+  TuningData:
+  - Type: 0
+    InitialValue: 30
+    LowerCap: 0
+    HigherCap: 2147483647
+  - Type: 1
+    InitialValue: 30
+    LowerCap: 0
+    HigherCap: 100
+  CurrentTimeSlot: 0
+--- !u!4 &1900255461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900255459}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1900255462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900255459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d25ba2c9296d347832ffafebd19e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EndingPage: {fileID: 1305815081}
+  EndingTexts:
+  - "You\u2019ve been working hard to publish news in your newspaper, hoping that
+    one of the stories could bring you better profits. However, things didn\u2019t
+    go as planned. As your newspaper operates day by day, your funds gradually run
+    out, leaving you unable to keep things afloat. In the end, you are forced to
+    shut down the newspaper and seek another path in life."
+  - "Of course, making money is all that matters\u2014any way that works is the right
+    way. You've always adhered to this principle in publishing your news. And you
+    were right, but only partially. At first, your newspaper thrived, earning significant
+    profits with sensational headlines and content. It seemed you were on the right
+    track. However, over time, people grew increasingly distrustful of your paper,
+    and some even began to despise it. In the end, your newspaper was shut down by
+    government authorities, with most of your earnings confiscated. You found yourself
+    back at square one, with nothing left."
+  - "You seem like you\u2019re not quite suited for this industry, you think to yourself
+    as you type away. Why is that? You ponder further. Sometimes, you want your reports
+    to be truthful, but other times, you feel they should be \u201Ca bit more popular.\u201D
+    Yet in the end, your newspaper remains mediocre\u2014some readers, just enough
+    income to cover rent, but beyond that? Nothing. But there\u2019s no time to dwell
+    on it now. It\u2019s time to tackle your next news."
+  - "Honestly, you don\u2019t know how much longer you can hold on. This realization
+    hit you during a recent conversation with your assistant\u2014she is, in fact,
+    one of the last five members of the newspaper, including yourself. But should
+    you give up? You think back to the resolve you had when you first joined the
+    paper. You wanted to report the news to the public from the most truthful perspective,
+    a belief that has remained steadfast, even after being repeatedly disillusioned
+    by newspapers that relied on sensationalism to gain audiences. You will keep
+    writing, even though you know the cost\u2014you\u2019ve always known. "
+  - "It\u2019s just work\u2014as long as it\u2019s done and the money is made, that\u2019s
+    all that matters. Even taking some necessary measures from time to time is acceptable.
+    No one will really care about how much one or two exaggerated stories impact
+    them; they\u2019ll just be drawn in by the headlines and buy a newspaper. You
+    can\u2019t help but start imagining what kind of ending this path might lead
+    to if you keep going this way. But perhaps there\u2019s no need to know the answer
+    just yet. Stretching your arms, you get back to writing the next news article."
+  - "You\u2019re made for this! Everyone praises you like this, and you truly believe
+    it too. Who else could know better than you how to deliver great news? You glance
+    at the invitation on your desk\u2014a formal dinner invite reserved only for
+    the heads of top newspapers. Tonight, you\u2019ll be attending. On your screen,
+    a new payment has just been processed, and earlier, your colleague reported that
+    today\u2019s newspaper sales have increased yet again. Everything is moving in
+    the best direction, and you feel that your future is shining brighter than ever."
+--- !u!82 &1900255463
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900255459}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d6ee4a93bc85c444aafe41776c9b8874, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1913992327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913992328}
+  - component: {fileID: 1913992330}
+  - component: {fileID: 1913992329}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1913992328
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913992327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 337963426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 321, y: -132}
+  m_SizeDelta: {x: 800, y: 600}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1913992329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913992327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Gold Changed: \n\n\n\nGold Changed: "
+--- !u!222 &1913992330
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913992327}
+  m_CullTransparentMesh: 1
+--- !u!1 &1923259795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1923259796}
+  - component: {fileID: 1923259799}
+  - component: {fileID: 1923259798}
+  - component: {fileID: 1923259797}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1923259796
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923259795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1423884131}
+  m_Father: {fileID: 1890564792}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -489.34}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1923259797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923259795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1923259798}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1890564793}
+        m_TargetAssemblyTypeName: NewsGenerator, Assembly-CSharp
+        m_MethodName: HandleGenerateNews
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1923259798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923259795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1923259799
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923259795}
+  m_CullTransparentMesh: 1
+--- !u!1 &2008330345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008330348}
+  - component: {fileID: 2008330347}
+  - component: {fileID: 2008330346}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2008330346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008330345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &2008330347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008330345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &2008330348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008330345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2054433566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2054433567}
+  - component: {fileID: 2054433569}
+  - component: {fileID: 2054433568}
+  m_Layer: 5
+  m_Name: Gold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2054433567
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054433566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429349519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 370, y: 463}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2054433568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054433566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 543aa9c816112fb4b9ba0d4a391ba396, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2054433569
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054433566}
+  m_CullTransparentMesh: 1
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 519420032}
+  - {fileID: 1900255461}
+  - {fileID: 1617308002}
+  - {fileID: 2008330348}
+  - {fileID: 1219063944}
+  - {fileID: 1890564792}
+  - {fileID: 753240423}
